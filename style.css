@@ -31,5 +31,98 @@ p, ol {
     font-family: "Cormorant Garamond", serif;
     font-weight: 500;
     font-style: normal;
+    max-width: 460px;
+    line-height: 200%;
 }
 
+
+.h1-header, .bottom-homepage, .center-text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px;
+   }
+   
+.image {
+     max-width: 100%;
+     max-height:100%;
+     padding: 30px;
+   }
+   
+
+
+
+
+
+/* navagation */
+
+.nav-logo {
+    justify-content: flex-start;
+}
+
+.nav-text {
+    justify-content: flex-end;
+}
+
+
+.nav {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 500;
+    font-style: normal;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(64, 28, 20, 1);
+    a {color: aliceblue;}
+}
+
+
+
+
+
+
+
+
+/* home page top hero image */
+.hero-image {
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+    height: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  
+  .hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: white;
+    background-color: rgba(140, 98, 46, 1);
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .hero-text button:hover {
+    background-color: rgba(255, 244, 241, 1);
+    color: black;
+  }
+  /* (above) home page top hero image */
