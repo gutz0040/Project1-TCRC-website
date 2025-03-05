@@ -3,116 +3,7 @@ body {
     margin: 0;
 }
 
-footer {
-  background-color: rgb(227, 215, 212);
-  padding: 20px;
-  text-align: center;
-}
 
-h1 {
-    font-family: "Inknut Antiqua", serif;
-    font-weight: 400;
-    font-style: normal;
-    margin: 20px;
-}
-
-h2 {
-    font-family: "Ysabeau SC", serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-size: 30px;
-    margin: 20px;
-}
-
-h3 {
-    font-family: "League Gothic", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-variation-settings:
-    "wdth" 100;
-    font-size: 24px;
-    margin: 20px 20px 0px 20px;
-
-}
-
-
-
-p, ol {
-    font-family: "Cormorant Garamond", serif;
-    font-weight: 500;
-    font-style: normal;
-    line-height: 200%;
-    margin: 20px;
-}
-a{color:rgba(191, 93, 57, 1)}
-
-ol {
-  line-height: 2.5;
-}
-
-
-li {
-  margin-bottom: 10px;
-}
-
-
-
-.h1-header, .bottom-homepage, .center-toptext{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-
-
-.center-toptext {
-    padding: 40px;
-    max-width: 900px;
-    margin-inline: auto;
-    text-align: left;
-}
-
-
-
-.container-home {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    padding: 2px 20px;
-   }
-
-
-.text-home {
-  max-width: 460px;
-
-}
-   
-.image {
-    max-width: 100%;
-    height: auto;
-     padding: 30px;
-   }
-   
-
-.bottom-homepage {
-    padding: 100px 20px 100px 20px;
-    max-width: 700px;
-    margin-inline: auto;
-
-}
-
-
-.benefit-text > h2 {
-  text-align: center;
-  font-size: 45px;
-  padding: 20px 50px 0px ;
-}
-
-.consult-rose > h2 {
-  padding-top: 150px;
-  font-size: 45px;
-}
-   
 
 
 /* navagation */
@@ -126,11 +17,13 @@ li {
     background-color: rgba(64, 28, 20, 1);
     justify-content: space-between;
     padding: 10px 30px;
+
     a {color: aliceblue;}
     font-size: 25px;
-
     
 }
+
+
 
 .nav-logo {
     justify-content: flex-start;
@@ -181,6 +74,149 @@ li {
     a {color: black; text-decoration: none;}
   }
   /* (above) button on nav */
+
+
+
+footer {
+  background-color: rgb(227, 215, 212);
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 20px;
+}
+
+h2 {
+    font-family: "Ysabeau SC", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 30px;
+    margin: 20px;
+}
+
+h3 {
+    font-family: "League Gothic", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    font-size: 24px;
+    margin: 20px 20px 0px 20px;
+
+}
+
+
+
+p, ol {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 200%;
+    margin: 20px;
+}
+a{color:rgba(191, 93, 57, 1)}
+
+ol {
+  line-height: 2.2;
+}
+
+
+li {
+  margin-bottom: 10px;
+}
+
+
+
+.h1-header, .bottom-homepage, .center-toptext{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.center-toptext {
+    padding: 40px;
+    max-width: 900px;
+    margin-inline: auto;
+    text-align: left;
+}
+
+
+
+.container-home {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 2px 20px;
+   }
+
+
+.text-home {
+  max-width: 460px;
+
+}
+
+
+.container-benefit {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 2px 20px;
+ }
+
+
+.text-benefit {
+max-width: 460px;
+}
+
+hr {
+  border-bottom: 5px solid  rgba(64, 28, 20, 0.018);
+  max-width: 80%;
+  margin-top: 0;
+  margin-bottom: 100px;
+  
+}
+
+.rose-emoji {
+  text-align: center;
+  margin: 100px;
+}
+
+
+
+
+   
+.image {
+    max-width: 100%;
+    height: auto;
+     padding: 30px;
+   }
+   
+
+.bottom-homepage {
+    padding: 100px 20px 100px 20px;
+    max-width: 700px;
+    margin-inline: auto;
+
+}
+
+
+.benefit-text > h2 {
+  text-align: center;
+  font-size: 45px;
+  padding: 20px 50px 0px ;
+}
+
+.consult-rose > h2 {
+  padding-top: 150px;
+  font-size: 45px;
+}
+   
 
 
 
@@ -266,6 +302,7 @@ li {
     flex-direction: row;
     padding: 0px 20px 90px 20px;
     gap: 20px;
+    justify-content: space-evenly;
 }
 
 
